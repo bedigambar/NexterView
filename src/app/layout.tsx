@@ -19,6 +19,11 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/icon.png",
+  },
   title: "NexterView | AI-Powered Mock Interviews",
   description:
     "Practice interviews with AI, get instant feedback, and track your improvement — all in one place.",
