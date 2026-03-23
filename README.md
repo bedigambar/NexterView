@@ -6,7 +6,6 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-06B6D4?logo=tailwindcss)
 ![Prisma](https://img.shields.io/badge/Prisma-6-2D3748?logo=prisma)
-![License](https://img.shields.io/badge/license-Private-red)
 
 NexterView generates tailored interview questions using Google Gemini AI, records your spoken answers via the Web Speech API, transcribes them in real time, and then grades your performance with a detailed, actionable feedback report.
 
