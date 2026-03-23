@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Terms of Service | NexterView",
-  description: "Terms of service for NexterView.",
+  description: "Read the NexterView terms of service governing use of our AI-powered mock interview platform.",
 };
 
 export default function TermsPage() {

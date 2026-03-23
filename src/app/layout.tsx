@@ -19,9 +19,33 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "NexterView | AI-Powered Interviews",
+  title: "NexterView | AI-Powered Mock Interviews",
   description:
-    "Master Interviews. Track Progress. Get Hired. AI-driven structured evaluation.",
+    "Practice interviews with AI, get instant feedback, and track your improvement — all in one place.",
+  metadataBase: new URL("https://nexter-view.vercel.app"),
+  openGraph: {
+    title: "NexterView | AI-Powered Mock Interviews",
+    description:
+      "Practice interviews with AI, get instant feedback, and track your improvement — all in one place.",
+    url: "https://nexter-view.vercel.app",
+    siteName: "NexterView",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "NexterView — AI-Powered Mock Interviews",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "NexterView | AI-Powered Mock Interviews",
+    description:
+      "Practice interviews with AI, get instant feedback, and track your improvement — all in one place.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({

@@ -31,6 +31,9 @@ NexterView generates tailored interview questions using Google Gemini AI, record
 src/
 ├── app/
 │   ├── page.tsx                        # Landing page
+│   ├── sitemap.ts                      # Auto-generated sitemap (/sitemap.xml)
+│   ├── robots.ts                       # Crawler rules (/robots.txt)
+│   ├── layout.tsx                      # Root layout + global metadata
 │   ├── dashboard/
 │   │   ├── page.tsx                    # Overview / performance dashboard
 │   │   └── (interview)/
@@ -58,6 +61,8 @@ src/
 prisma/
 ├── schema.prisma                        # Database schema
 └── migrations/                          # Migration history
+public/
+└── og-image.png                         # Open Graph preview image
 ```
 
 ---

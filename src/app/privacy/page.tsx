@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | NexterView",
-  description: "Privacy policy for NexterView.",
+  description: "Learn how NexterView collects, uses, and protects your personal data and interview information.",
 };
 
 export default function PrivacyPage() {

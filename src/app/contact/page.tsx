@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Contact | NexterView",
-  description: "Contact details for NexterView.",
+  description: "Get in touch with the NexterView team for support, feedback, or collaboration enquiries.",
 };
 
 export default function ContactPage() {
