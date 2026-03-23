@@ -1,5 +1,6 @@
 "use server";
 import { prisma } from "@/lib/prisma";
+import { Prisma } from "@prisma/client";
 import { InterviewSchema } from "@/lib/schema";
 import { requireUser } from "@/actions/requireUser";
 import { generateInterviewQuestions } from "@/services/generateQuestions";
@@ -211,7 +212,7 @@ export const generateFeedback = async (
 
 
     if (feedback) {
-      const attempt = await prisma.$transaction(async (tx) => {
+      const attempt = await prisma.$transaction(async (tx: Prisma.TransactionClient) => {
         const createdAttempt = await tx.attempt.create({
           data: {
             interviewId: interviewId,
