@@ -19,7 +19,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "NexterView | Master Your Mock Interview with AI-Powered Feedback",
+  title: "NexterView | Master Mock Interviews with AI Feedback",
   description:
     "Elevate your career with NexterView. Practice role-specific mock interviews with AI, receive instant actionable feedback, and track your readiness scores today.",
   metadataBase: new URL("https://nexter-view.vercel.app"),
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     apple: "/icon.svg",
   },
   openGraph: {
-    title: "NexterView | Master Your Mock Interview with AI-Powered Feedback",
+    title: "NexterView | Master Mock Interviews with AI Feedback",
     description:
       "Elevate your career with NexterView. Practice role-specific mock interviews with AI, receive instant actionable feedback, and track your readiness scores today.",
     url: "https://nexter-view.vercel.app",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "NexterView | Master Your Mock Interview with AI-Powered Feedback",
+    title: "NexterView | Master Mock Interviews with AI Feedback",
     description:
       "Elevate your career with NexterView. Practice role-specific mock interviews with AI, receive instant actionable feedback, and track your readiness scores today.",
     images: ["/og-image.png"],
